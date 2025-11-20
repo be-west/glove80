@@ -85,121 +85,121 @@
         hr_l_shift {
             bindings = <&kp LSHIFT>;
             key-positions = <38 37>;
-            timeout-ms = <1>;
+            timeout-ms = <20>;
         };
 
         hr_l_gui {
             bindings = <&kp LGUI>;
             key-positions = <37 36>;
-            timeout-ms = <1>;
+            timeout-ms = <20>;
         };
 
         hr_l_ctrl {
             bindings = <&kp LCTRL>;
             key-positions = <36 35>;
-            timeout-ms = <1>;
+            timeout-ms = <30>;
         };
 
         hr_r_shift {
             bindings = <&kp RSHIFT>;
             key-positions = <41 42>;
-            timeout-ms = <1>;
+            timeout-ms = <20>;
         };
 
         hr_r_gui {
             bindings = <&kp RGUI>;
             key-positions = <42 43>;
-            timeout-ms = <1>;
+            timeout-ms = <20>;
         };
 
         hr_r_ctrl {
             bindings = <&kp LCTRL>;
             key-positions = <43 44>;
-            timeout-ms = <1>;
+            timeout-ms = <30>;
         };
 
         hr_l_shiftgui {
             bindings = <&kp LS(LGUI)>;
             key-positions = <38 36 37>;
-            timeout-ms = <1>;
+            timeout-ms = <30>;
         };
 
         hr_r_shiftgui {
             bindings = <&kp LS(LGUI)>;
             key-positions = <41 42 43>;
-            timeout-ms = <1>;
+            timeout-ms = <30>;
         };
 
         hr_l_ctrlgui {
             bindings = <&kp LG(LCTRL)>;
             key-positions = <37 36 35>;
-            timeout-ms = <1>;
+            timeout-ms = <35>;
         };
 
         hr_r_ctrlgui {
             bindings = <&kp RC(RGUI)>;
             key-positions = <42 43 44>;
-            timeout-ms = <1>;
+            timeout-ms = <35>;
         };
 
         hr_l_shiftctrl {
             bindings = <&kp LS(LCTRL)>;
             key-positions = <38 36>;
-            timeout-ms = <1>;
+            timeout-ms = <30>;
         };
 
         hr_r_shiftctrl {
             bindings = <&kp RS(RCTRL)>;
             key-positions = <41 43>;
-            timeout-ms = <1>;
+            timeout-ms = <30>;
         };
 
         hr_l_alt {
             bindings = <&kp LEFT_ALT>;
             key-positions = <50 49>;
-            timeout-ms = <1>;
+            timeout-ms = <20>;
         };
 
         hr_r_alt {
             bindings = <&kp LEFT_ALT>;
             key-positions = <59 60>;
-            timeout-ms = <1>;
+            timeout-ms = <20>;
         };
 
         hr_l_altgr {
             bindings = <&kp RIGHT_ALT>;
             key-positions = <50 37>;
-            timeout-ms = <1>;
+            timeout-ms = <25>;
         };
 
         hr_r_altgr {
             bindings = <&kp RIGHT_ALT>;
             key-positions = <59 42>;
-            timeout-ms = <1>;
+            timeout-ms = <25>;
         };
 
         hr_l_shiftaltgr {
             bindings = <&kp LS(RIGHT_ALT)>;
             key-positions = <38 37 50>;
-            timeout-ms = <1>;
+            timeout-ms = <30>;
         };
 
         hr_r_shiftaltgr {
             bindings = <&kp LS(RIGHT_ALT)>;
             key-positions = <41 42 59>;
-            timeout-ms = <1>;
+            timeout-ms = <30>;
         };
 
         l_prog_layer {
             bindings = <&mo 1>;
             key-positions = <48 49>;
-            timeout-ms = <1>;
+            timeout-ms = <20>;
         };
 
         r_prog_layer {
             bindings = <&mo 1>;
             key-positions = <60 61>;
-            timeout-ms = <1>;
+            timeout-ms = <20>;
         };
     };
 
